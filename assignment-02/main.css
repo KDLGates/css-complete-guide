@@ -1,0 +1,16 @@
+.box {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 2px 3px 4px 5px;
+  margin: 0.25em 0.33em 0.5em 0.75em;
+}
+
+.box__first {
+  height: 300px;
+  width: 50%;
+  display: none;
+}
+
+div:last-child:hover {
+  border-color: yellow;
+}
