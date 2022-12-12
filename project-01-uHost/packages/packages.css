@@ -1,0 +1,62 @@
+.plan {
+  border: 3px solid #0e4f1f;
+  margin-top: 15px;
+  padding-left: 25px;
+  border-left: none;
+  width: 80%;
+}
+
+.plan h2 {
+  color: gray;
+}
+
+section:first-child {
+  margin-top: 2rem;
+}
+
+.plan:active,
+.plan:hover {
+  border-color: red;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.plans__plus {
+  background: #a6fcbd;
+}
+
+/* Float & Clearfix the Free package */
+.plans__free {
+  background: #d5ffdc;
+  border-left: 3px solid #0e4f1f;
+  border-right: none;
+  float: right;
+  text-align: right;
+}
+.clearfix {
+  clear: both;
+}
+
+.plans__premium {
+  background: #0e4f1f;
+  color: white;
+}
+.plans__premium a p {
+  color: black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.plan a {
+  display: block;
+}
+
+.plan a p {
+  border: 2px solid #0e4f1f;
+  display: inline-block;
+  background: white;
+  padding: 1rem 1.5rem;
+  width: 95%;
+}
