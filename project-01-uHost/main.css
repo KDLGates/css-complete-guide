@@ -143,6 +143,12 @@ a {
   text-align: center;
 }
 
+#plans-container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 #plans ul {
   padding: 0;
   margin: 0;
@@ -152,28 +158,6 @@ a {
   list-style-type: none;
   margin: 8px 0;
   text-align: center;
-}
-
-.button {
-  background: #0e4f1f;
-  color: white;
-  font: inherit;
-  border: 1.5px solid #0e4f1f;
-  padding: 8px 15px;
-  border-radius: 10px;
-  margin-top: 15px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.button:hover,
-.button:active {
-  background: white;
-  color: #0e4f1f;
-}
-
-.button:focus {
-  outline: none;
 }
 
 /* Key Features */
@@ -204,3 +188,33 @@ a {
   text-align: center;
   font-size: 18px;
 }
+
+.key-feature__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.key-feature {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+}
+
+.key-feature__image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%; /* circle rounding */
+  border: 2px solid #424242;
+  margin: auto;
+}
+
+.key-feature__description {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+
